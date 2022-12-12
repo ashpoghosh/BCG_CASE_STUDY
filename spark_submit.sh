@@ -1,3 +1,4 @@
+unzip Data.zip -d data/
 spark-submit \
 --master "local[*]" \
 --files configs/config.json \
