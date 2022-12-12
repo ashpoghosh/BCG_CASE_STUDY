@@ -1,5 +1,5 @@
 mkdir data
-unzip Data.zip -d
+unzip Data.zip
 
 mkdir -p output_files/analysis_1
 mkdir -p output_files/analysis_2
