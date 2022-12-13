@@ -1,4 +1,4 @@
-unzip Data.zip
+unzip -o Data.zip
 mkdir -p output_files/analysis_1
 mkdir -p output_files/analysis_2
 mkdir -p output_files/analysis_3
