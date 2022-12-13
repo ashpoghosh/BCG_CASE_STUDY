@@ -1,11 +1,12 @@
 # BCG_CASE_STUDY
 
 Dataset:
-=============
+--------
 
 Data Set folder has 6 csv files. Please use the data dictionary (attached in the mail) to understand the dataset and then develop your approach to perform below analytics. 
 
-Analytics:  
+Analytics: 
+----------
 
 Application should perform below analysis and store the results for each analysis. 
 
