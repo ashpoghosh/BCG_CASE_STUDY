@@ -26,4 +26,12 @@ Analysis 7: Count of Distinct Crash IDs where No Damaged Property was observed a
 
 Analysis 8: Determine the Top 5 Vehicle Makes where drivers are charged with speeding related offences, has licensed Drivers, uses top 10 used vehicle colours and has car licensed with the Top 25 states with highest number of offences (to be deduced from the data) 
 
-##END
+Running the ETL job
+--------------------
+
+$SPARK_HOME/bin/spark-submit \
+--master local[*] \
+--packages 'com.somesparkjar.dependency:1.0.0' \
+--py-files packages.zip \
+--files configs/etl_config.json \
+jobs/etl_job.py
