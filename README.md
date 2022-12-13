@@ -1,12 +1,12 @@
 # BCG_CASE_STUDY
 
-## Dataset:
+### Dataset:
 
 
 Data Set folder has 6 csv files. Please use the data dictionary (attached in the mail) to understand the dataset and then develop your approach to perform below analytics. 
 
-Analytics: 
-----------
+### Analytics: 
+
 
 Application should perform below analysis and store the results for each analysis. 
 
@@ -26,8 +26,8 @@ Analysis 7: Count of Distinct Crash IDs where No Damaged Property was observed a
 
 Analysis 8: Determine the Top 5 Vehicle Makes where drivers are charged with speeding related offences, has licensed Drivers, uses top 10 used vehicle colours and has car licensed with the Top 25 states with highest number of offences (to be deduced from the data) 
 
-Running the ETL job
---------------------
+### Running the ETL job
+
 
 $SPARK_HOME/bin/spark-submit \
 --master local[*] \
