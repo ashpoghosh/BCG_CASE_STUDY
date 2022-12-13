@@ -58,9 +58,8 @@ BCG_CASE_STUDY/
 ## Running the ETL job
 
 1. Get into Project Directory: ``` cd BCG_CASE_STUDY ```
-2. Run the start_script which consists unzip of data files and creation of output_files directories and sub directories.
+2. Run the start_script ``` sh start_script.sh ``` which consists unzip of data files and creation of output_file directory and sub directories.
 ```bash
-mkdir Data
 unzip Data.zip
 
 mkdir -p output_files/analysis_1
