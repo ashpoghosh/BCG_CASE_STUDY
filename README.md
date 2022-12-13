@@ -60,7 +60,7 @@ BCG_CASE_STUDY/
 1. Get into Project Directory: ``` cd BCG_CASE_STUDY ```
 2. Run the start_script ``` sh start_script.sh ``` which consists unzip of data files and creation of output_file directory and sub directories.
 ```bash
-unzip Data.zip
+unzip -o Data.zip
 
 mkdir -p output_files/analysis_1
 mkdir -p output_files/analysis_2
