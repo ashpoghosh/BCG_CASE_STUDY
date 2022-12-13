@@ -26,6 +26,35 @@ Analysis 7: Count of Distinct Crash IDs where No Damaged Property was observed a
 
 Analysis 8: Determine the Top 5 Vehicle Makes where drivers are charged with speeding related offences, has licensed Drivers, uses top 10 used vehicle colours and has car licensed with the Top 25 states with highest number of offences (to be deduced from the data) 
 
+## Project Structure
+
+```bash
+BCG_CASE_STUDY/
+ |-- configs/
+ |   |-- config.json
+ |-- Data/
+ |   |-- Primary_Person_use.csv
+ |   |-- Restrict_use.csv
+ |   |-- Units_use.csv
+ |   |-- Charges_use.csv
+ |   |-- Damages_use.csv
+ |   |-- Endorse_use.csv
+ |-- etl_job/
+ |   |-- main_spark.py
+ |-- output_files/
+ |   |-- analysis_1/
+ |   |-- analysis_2/
+ |   |-- analysis_3/
+ |   |-- analysis_4/
+ |   |-- analysis_5/
+ |   |-- analysis_6/
+ |   |-- analysis_7/
+ |   |-- analysis_8/
+ |-- Data.zip
+ |-- intial_script.sh
+
+```
+
 ### Running the ETL job
 
 
